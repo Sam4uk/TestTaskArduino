@@ -1,10 +1,7 @@
 #ifndef _CONFIG_H_PP_
 #define _CONFIG_H_PP_ (22.12.22)
 
-
-#define CLAP_LEVEL (250)
-#define SERIAL_SPEED (9600)
-#define WAIT0_25 (250)
+#define WAIT0_25 (10)
 
 // Живлення мікрофону
 //< Пін плюса мікрофону
@@ -12,7 +9,7 @@
 //< пін мінуса мікрофону
 #define MIC_GND (9)
 // Пін звуку
-#define SOUND_PIN (1)
+#define SOUND_PIN (8)
 
 // Пін червоного
 #define LED_RED (12)
